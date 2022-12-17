@@ -10,7 +10,13 @@ app.get('/', (req, res) => {
     res.render('index')
 })
 
-app.get('/baseball')
+app.get('/login',(req,res) =>{
+    res.render('login')
+})
+
+app.get('/baseball', (req, res) => {
+    res.render('baseball')
+})
 
 app.get('/search', (req, res) => {
     
