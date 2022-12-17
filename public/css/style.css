@@ -134,6 +134,25 @@ a {
 
 /* ----/body---- */
 
+.content1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+    margin: 0 100px;
+}
+
+.status {
+    float: left;
+}
+
+.viewAll {
+    float: right;
+}
+
+
 
 /* Media Query */
 @media(max-width: 992px) {
@@ -165,4 +184,9 @@ a {
     .collapse-toggle {
         max-height: 500px;
     }
+
+    .content {
+
+    }
+
 }

@@ -10,6 +10,8 @@ app.get('/', (req, res) => {
     res.render('index')
 })
 
+app.get('/baseball')
+
 app.get('/search', (req, res) => {
     
 }) 
